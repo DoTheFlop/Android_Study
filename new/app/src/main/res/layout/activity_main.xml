@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:background="#FF0000">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:background="#fff200">
+
+                <CheckBox
+                    android:id="@+id/Bts"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="BTS" />
+
+                <CheckBox
+                    android:id="@+id/Twice"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="트와이스"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:background="#ff00f0">
+                <RadioGroup
+                    android:id="@+id/BtsGroup"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone">
+                    <RadioButton
+                        android:id="@+id/jung"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="정국"/>
+                    <RadioButton
+                        android:id="@+id/tae"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="태형"/>
+                    <RadioButton
+                        android:id="@+id/ji"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="지민"/>
+                </RadioGroup>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:background="#ff00f0">
+                    <RadioGroup
+                        android:id="@+id/TwiceGroup"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:visibility="gone">
+                        <RadioButton
+                            android:id="@+id/che"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="채영"/>
+                        <RadioButton
+                            android:id="@+id/sa"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="사나"/>
+                        <RadioButton
+                            android:id="@+id/na"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="나연"/>
+                    </RadioGroup>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+            <RadioGroup
+                android:id="@+id/fit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/matrix"
+                    android:layout_width="wrap_content"
+                    android:layout_height="34dp"
+                    android:text="matrix" />
+                <RadioButton
+                    android:id="@+id/fitXY"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="fitXY"/>
+                <RadioButton
+                    android:id="@+id/fitCenter"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="fitCenter"/>
+                <RadioButton
+                    android:id="@+id/center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="center"/>
+            </RadioGroup>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+</LinearLayout>

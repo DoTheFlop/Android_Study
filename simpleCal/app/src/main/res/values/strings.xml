@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">simpleCal</string>
+    <string name="Edit1">숫자1</string>
+    <string name="Edit2">숫자2</string>
+    <string name="addBtn">더하기</string>
+    <string name="TextResult">계산 결과 :</string>
+</resources>

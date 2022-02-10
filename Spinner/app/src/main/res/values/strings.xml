@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Spinner</string>
+    <string-array name="movieName">
+        <item>아이언맨1</item>
+        <item>아이언맨2</item>
+        <item>아이언맨3</item>
+    </string-array>
+</resources>

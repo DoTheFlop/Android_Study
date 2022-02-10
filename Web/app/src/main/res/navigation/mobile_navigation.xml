@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/mobile_navigation"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/navigation_naver">
+
+    <fragment
+        android:id="@+id/navigation_naver"
+        android:name="com.example.web.ui.naver.NaverFragment"
+        android:label="Naver"
+        tools:layout="@layout/fragment_naver"/>
+
+    <fragment
+        android:id="@+id/navigation_daum"
+        android:name="com.example.web.ui.daum.DaumFragment"
+        android:label="Naver"
+        tools:layout="@layout/fragment_daum"/>
+
+    <fragment
+        android:id="@+id/navigation_google"
+        android:name="com.example.web.ui.google.GoogleFragment"
+        android:label="Naver"
+        tools:layout="@layout/fragment_google"/>
+
+</navigation>

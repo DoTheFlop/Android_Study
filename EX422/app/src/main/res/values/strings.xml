@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">EX4-2</string>
+    <string name="Button">이건 Button입니다.</string>
+    <string name="Button2">버튼 2</string>
+</resources>
